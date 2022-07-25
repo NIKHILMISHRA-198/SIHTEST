@@ -1,11 +1,11 @@
 import "./App.css";
 import Home from "./Components/home";
-
+import { Box } from "native-base";
 function App() {
   return (
-    <div className="App">
+    <Box>
       <Home />
-    </div>
+    </Box>
   );
 }
 
